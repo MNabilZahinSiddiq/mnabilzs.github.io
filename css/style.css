@@ -185,7 +185,7 @@ body {
 .hobby .row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15rem;
+    margin-top: 13rem;
     justify-content: center;
     gap: 80px;
 }
@@ -198,8 +198,8 @@ body {
 .hobby .row .hobby-card img {
     border-radius: 50%;
     width: 80%;
-    height: 350px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
 }
 
 .hobby .row .hobby-card .hobby-card-title {
@@ -220,8 +220,8 @@ body {
 }
 
 .portofolio .row .portofolio-card .portofolio-card-img {
-    width: 600px;
-    height: 430px;
+    width: 400px;
+    height: 260px;
     border-radius: 10px;
 }
 
