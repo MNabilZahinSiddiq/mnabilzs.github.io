@@ -162,11 +162,14 @@ body {
 
 .about .row .about-img img {
     width: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
 }
 
 .about .row .content {
     flex: 1 1 35rem;
     padding: 0 1rem;
+    margin-top: 2rem;
 }
 
 .about .row .content h3 {
@@ -185,9 +188,9 @@ body {
 .hobby .row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 13rem;
+    margin-top: 5rem;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
 }
 
 .hobby .row .hobby-card {
@@ -205,6 +208,9 @@ body {
 .hobby .row .hobby-card .hobby-card-title {
     margin-top: 1.5rem;
 }
+.hobby .row .hobby-card .hobby-card-title:hover {
+    color: var(--primary);
+}
 
 /* portofolio section */
 .portofolio .row {
@@ -219,9 +225,14 @@ body {
     flex-direction: column;
 }
 
+.portofolio .row {
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
 .portofolio .row .portofolio-card .portofolio-card-img {
     width: 400px;
-    height: 260px;
+    height: 280px;
     border-radius: 10px;
 }
 
@@ -357,6 +368,13 @@ footer .credit a {
 
     .about .row .content p {
         font-size: 1.6rem;
+    }
+
+    .hobby .row .hobby-card img {
+        border-radius: 50%;
+        width: 80%;
+        height: 150px;
+        width: 150px;
     }
 
     .portofolio .row .portofolio-card .portofolio-card-img {
