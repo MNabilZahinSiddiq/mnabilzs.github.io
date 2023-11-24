@@ -181,11 +181,13 @@ body {
     margin-bottom: 1rem;
 }
 
-.about .row .content p {
+.about .row .content p,
+.about .row .content ul {
     margin-bottom: 0.8rem;
     font-size: 1.4rem;
     font-weight: 100;
     line-height: 1.6;
+    list-style-type: none;
 }
 
 /* hobby section */
@@ -212,6 +214,7 @@ body {
 .hobby .row .hobby-card .hobby-card-title {
     margin-top: 1.5rem;
 }
+
 .hobby .row .hobby-card .hobby-card-title:hover {
     color: var(--primary);
 }
